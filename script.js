@@ -1,4 +1,4 @@
-const apiKey = "YOUR_API_KEY";
+const apiKey = "ecb8e736e52d464095bb14771c8fe103";
 
 // Mumbai Coordinates
 fetch(`https://api.openweathermap.org/data/2.5/air_pollution?lat=19.0760&lon=72.8777&appid=${apiKey}`)

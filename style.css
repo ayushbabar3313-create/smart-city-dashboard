@@ -1,0 +1,18 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  background: #0f172a;
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.city {
+  padding: 20px;
+  background: #1e293b;
+  border-radius: 10px;
+}

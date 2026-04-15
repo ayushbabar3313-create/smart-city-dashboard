@@ -1,7 +1,7 @@
 body {
   font-family: Arial;
   text-align: center;
-  background: #0f172a;
+  background: linear-gradient(135deg, #0f172a, #1e3a8a); /* updated */
   color: white;
 }
 
@@ -15,4 +15,10 @@ body {
   padding: 20px;
   background: #1e293b;
   border-radius: 10px;
+  transition: 0.3s; /* added */
+}
+
+/* 👇 ADD THIS NEW PART */
+.city:hover {
+  transform: scale(1.05);
 }
